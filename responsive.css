@@ -1,0 +1,112 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #header-area {
+    text-align: center;
+    padding-top: 3rem;
+    background-position: top;
+  }
+   #header-area .container {
+    flex-direction: column;
+   }
+   #header-area nav ul {
+    margin-top: 5rem;
+   }
+   #header-area nav ul li {
+    margin-top: 4rem;
+    display: block;
+    padding-left: 0;
+   }
+   #header-area h1 {
+    margin-top: 4rem;
+    font-size: 3rem;
+
+   }
+   #header-area h1::before {
+    display: none;
+   }
+   #header-area .hero-area {
+    margin-top: 6rem;
+   }
+    #header-area .hero-area a {
+    padding: 1rem 1rem;
+  }
+  /*feedback section*/
+  .lower-feedback p {
+    margin-top: 0;
+  }
+  /*services section*/
+  #services-section .mid-service .container {
+    flex-wrap: wrap;
+  }
+  #services-section .lower-service .container {
+    flex-wrap: wrap;
+  }
+  #services-section img {
+    margin-top: 2rem;
+  }
+  #services-section .upper-service p {
+    margin-bottom: 2rem;
+  }
+  /*studio section*/
+  #studio-section {
+    text-align: center;
+  }
+  #studio-section .container {
+    flex-direction: column;
+
+  }
+  #studio-section .right-studio iframe {
+    width: 25rem;
+    height: auto;
+  }
+  #studio-section h1::before {
+  content: "";
+  width: 7.3rem;
+  position: absolute;
+  border-bottom: 0.4rem solid #3ec6ff;
+  top: -4rem;
+  left: 6rem;
+}
+#studio-section p {
+  margin-bottom: 3rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1024px) {
+   #services-section .mid-service .container {
+    display: block;
+  }
+  #services-section .lower-service .container {
+    display: block;
+  }
+  #services-section .upper-service p {
+    margin-bottom: 3rem;
+  }
+  #services-section p {
+    margin-bottom: 4rem;
+  } 
+  /*studio section*/
+  #studio-section {
+    text-align: center;
+  }
+  #studio-section .container {
+    flex-direction: column;
+
+  }
+  #studio-section .right-studio iframe {
+    width: 16rem;
+    height: auto;
+  }
+  #studio-section h1::before {
+  content: "";
+  width: 7.3rem;
+  position: absolute;
+  border-bottom: 0.4rem solid #3ec6ff;
+  top: -4rem;
+  display: none;
+  }
+#studio-section p {
+  margin-bottom: 3rem;
+  }
+}
