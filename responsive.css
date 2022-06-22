@@ -56,7 +56,7 @@
 
   }
   #studio-section .right-studio iframe {
-    width: 25rem;
+    width: 18.5rem;
     height: auto;
   }
   #studio-section h1::before {
@@ -66,10 +66,25 @@
   border-bottom: 0.4rem solid #3ec6ff;
   top: -4rem;
   left: 6rem;
-}
-#studio-section p {
+  }
+  #studio-section p {
   margin-bottom: 3rem;
-}
+  }
+  /*portfolio section*/
+  #portfolio-section .container {
+    grid-auto-flow: dense;
+    grid-gap: 0;
+  }
+  #portfolio-section .container img {
+    /*object-fit: cover;*/
+  }
+  #portfolio-section .container .img2, .img5 {
+    display: none;
+  }
+  #portfolio-section .container-2 h1 {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -95,7 +110,7 @@
 
   }
   #studio-section .right-studio iframe {
-    width: 16rem;
+    max-width: 60rem;
     height: auto;
   }
   #studio-section h1::before {
@@ -109,4 +124,5 @@
 #studio-section p {
   margin-bottom: 3rem;
   }
+
 }
