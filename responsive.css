@@ -120,6 +120,10 @@
   #team-section .img-container img {
     margin-bottom: 2rem;
   }
+  #team-section .img-container h2 {
+    margin-top: 0rem;
+    margin-bottom: 3rem;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -187,6 +191,11 @@
   }
   #team-section .img-container img {
     margin-left: 3rem;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+  }
+  #team-section .img-container h2 {
+    margin-top: 0rem;
+    padding-bottom: 2rem;
+    margin-left: 3rem;
   }
 }
