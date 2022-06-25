@@ -187,7 +187,7 @@ services section
 studio section
 ===================================*/
 #studio-section {
-	min-height: 53.5rem;
+	min-height: 42.5rem;
 }
 #studio-section img {
 	width: 100%;
@@ -260,4 +260,57 @@ portfolio section
 }
 #portfolio-section .container .img6 {
 	grid-column: auto / span 2;
+}
+/*=================================
+clients section
+===================================*/
+#clients-section {
+	background: url(img/client-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	margin-top: 10rem;
+}
+#clients-section .upper-clients h1 {
+	color: #ffff;
+	font-size: 3.6rem;
+	padding-top: 10.5rem;
+}
+#clients-section .upper-clients p {
+	color: #ffff;
+	font-size: 1.8rem;
+	margin-top: 4.5rem;
+	margin-bottom: 8.8rem;
+}
+#clients-section .lower-clients {
+	display: flex;
+	justify-content: space-around;
+}
+#clients-section .lower-clients img {
+
+}
+/*=================================
+Team section
+===================================*/
+#team-section {
+	text-align: center;
+}
+#team-section h1 {
+	color: #242424;
+	font-size: 3.6rem;
+	margin-top: 10rem;
+	margin-bottom: 3rem;
+}
+#team-section p {
+	font-size: 1.8rem;
+	margin-bottom: 5.2rem;
+}
+#team-section .img-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#team-section .img-container img {
+	width: 23rem;
+	height: auto;
 }

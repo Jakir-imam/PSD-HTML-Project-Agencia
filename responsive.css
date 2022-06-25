@@ -65,6 +65,9 @@
     width: 18.5rem;
     height: auto;
   }
+  #studio-section h1 {
+    margin-top: 3rem;
+  }
   #studio-section h1::before {
   content: "";
   width: 7.3rem;
@@ -81,15 +84,41 @@
     grid-auto-flow: dense;
     grid-gap: 0;
   }
-  #portfolio-section .container img {
-    /*object-fit: cover;*/
-  }
   #portfolio-section .container .img2, .img5 {
     display: none;
   }
   #portfolio-section .container-2 h1 {
-    margin-top: 5rem;
     font-size: 3rem;
+  }
+  /*clients section*/
+  #clients-section {
+    margin-top: rem;
+    height: 100rem;
+    background: url(img/g-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/g-2.jpg);
+  }
+  #clients-section .lower-clients {
+    display: block;
+  }
+  #clients-section .upper-clients h1 {
+    padding-top: 2rem;
+  }
+  #clients-section .upper-clients p {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+  }
+  #clients-section .lower-clients img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom:2rem; 
+  }
+  /*team section*/
+  #team-section .img-container {
+    justify-content: center;
+    align-items: center;
+  }
+  #team-section .img-container img {
+    margin-bottom: 2rem;
   }
 }
 
@@ -127,8 +156,37 @@
   top: -4rem;
   display: none;
   }
-#studio-section p {
-  margin-bottom: 3rem;
+  /*clients section*/
+  #clients-section {
+    margin-top: 2rem;
+    height: 100rem;
+    background: url(img/g-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/g-2.jpg);
   }
-
+   #clients-section .lower-clients {
+    display: block;
+  }
+  #clients-section .upper-clients h1 {
+    padding-top: 2rem;
+  }
+  #clients-section .upper-clients p {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+  }
+  #clients-section .lower-clients img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom:2rem; 
+  }
+  /*team section*/
+  #team-section .img-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #team-section .img-container img {
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+  }
 }
