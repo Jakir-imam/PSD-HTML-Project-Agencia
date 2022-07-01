@@ -1,3 +1,105 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 1024px) {
+   #services-section .mid-service .container {
+    display: block;
+  }
+  #services-section .lower-service .container {
+    display: block;
+  }
+  #services-section .upper-service p {
+    margin-bottom: 3rem;
+  }
+  #services-section p {
+    margin-bottom: 4rem;
+  } 
+  /*studio section*/
+  #studio-section {
+    text-align: center;
+  }
+  #studio-section h1 {
+    margin-top: 2rem;
+  }
+  #studio-section .container {
+    flex-direction: column;
+
+  }
+  #studio-section .right-studio iframe {
+    max-width: 60rem;
+    height: auto;
+  }
+  #studio-section h1::before {
+  content: "";
+  width: 7.3rem;
+  position: absolute;
+  border-bottom: 0.4rem solid #3ec6ff;
+  top: -4rem;
+  display: none;
+  }
+  /*clients section*/
+  #clients-section {
+    margin-top: 2rem;
+    height: 100rem;
+    background: url(img/g-2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/g-2.jpg);
+  }
+   #clients-section .lower-clients {
+    display: block;
+  }
+  #clients-section .upper-clients h1 {
+    padding-top: 2rem;
+  }
+  #clients-section .upper-clients p {
+    margin-bottom: 8rem;
+    margin-top: 2rem;
+  }
+  #clients-section .lower-clients img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom:2rem; 
+  }
+  /*team section*/
+  #team-section .img-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #team-section .img-container div {
+    margin-bottom: 2rem;
+  }
+  #team-section .img-container img {
+    margin-bottom: 2rem;
+  }
+  #team-section .img-container h2 {
+    margin-top: 0rem;
+    padding-bottom: 2rem;
+  }
+  /* maps section */
+  #maps-section iframe {
+    width: 100%;
+    height: 51rem;
+    margin-top: 4rem;
+  }
+  /*footer section*/
+  #footer-section  {
+    margin-top: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  #contact-section .name input:nth-child(2) {
+    margin-left: 0rem;
+    margin-top: 3rem;
+  }
+  #contact-section .email input:nth-child(2) {
+    margin-left: 0rem;
+  }
+  #contact-section input {
+    width: 58rem;
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .container-2 {
@@ -94,8 +196,8 @@
   #clients-section {
     margin-top: rem;
     height: 100rem;
-    background: url(img/g-2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/g-2.jpg);
+    background: url(img/g-7.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/g-7.jpg);
   }
   #clients-section .lower-clients {
     display: block;
@@ -124,78 +226,35 @@
     margin-top: 0rem;
     margin-bottom: 3rem;
   }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 1024px) {
-   #services-section .mid-service .container {
-    display: block;
+  /*contact section*/
+  #contact-section input {
+    width: 30rem;
   }
-  #services-section .lower-service .container {
-    display: block;
+  #contact-section .text-area input{
+    width: 30rem;
   }
-  #services-section .upper-service p {
-    margin-bottom: 3rem;
+  #contact-section .name input:nth-child(2) {
+    margin-left: 0rem;
+    margin-top: 2rem;
   }
-  #services-section p {
-    margin-bottom: 4rem;
-  } 
-  /*studio section*/
-  #studio-section {
+  #contact-section .email input:nth-child(2) {
+    margin-left: 0rem;
+  }
+  .contact-btn {
+    margin-top: 3rem;
+  }
+  /*footer section*/
+  #footer-section {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    flex-direction: column-reverse;
     text-align: center;
   }
-  #studio-section .container {
-    flex-direction: column;
+  #footer-section p {
+    margin-left: 0;
+    padding-bottom: 1rem;
+  }
+  #footer-section .fa-brands {
 
-  }
-  #studio-section .right-studio iframe {
-    max-width: 60rem;
-    height: auto;
-  }
-  #studio-section h1::before {
-  content: "";
-  width: 7.3rem;
-  position: absolute;
-  border-bottom: 0.4rem solid #3ec6ff;
-  top: -4rem;
-  display: none;
-  }
-  /*clients section*/
-  #clients-section {
-    margin-top: 2rem;
-    height: 100rem;
-    background: url(img/g-2.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/g-2.jpg);
-  }
-   #clients-section .lower-clients {
-    display: block;
-  }
-  #clients-section .upper-clients h1 {
-    padding-top: 2rem;
-  }
-  #clients-section .upper-clients p {
-    margin-bottom: 8rem;
-    margin-top: 2rem;
-  }
-  #clients-section .lower-clients img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom:2rem; 
-  }
-  /*team section*/
-  #team-section .img-container {
-    flex-wrap: nowrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  #team-section .img-container img {
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-  }
-  #team-section .img-container h2 {
-    margin-top: 0rem;
-    padding-bottom: 2rem;
-    margin-left: 3rem;
-  }
+   }
 }

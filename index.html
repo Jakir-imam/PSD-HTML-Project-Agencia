@@ -12,6 +12,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Merriweather:wght@300;400&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="responsive.css">
+	<!-- font awesome -->
+	<script src="https://kit.fontawesome.com/7e17faf26e.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<!-- header -->
@@ -188,22 +190,31 @@
 		<h1>CONTACT US</h1>
 		<div class="container">
 			<form action="">
-				<div>
+				<div class="name">
 					<input type="text" id="fname" name="firstname" placeholder="First Name">
 
 					<input type="text" id="lname" name="lastname" placeholder="Last Name">
 				</div>
 
-				<div>
+				<div class="email">
 					<input type="email" id="email" name="email" placeholder="Your Email">
 					<input type="website" id="website" name="website" placeholder="Your Website">
 				</div>
-				<div>
+				<div class="text-area">
 					<input type="text-area" placeholder="Your Message">
 				</div>
-				<button>Send Message</button>
+				<button class="contact-btn">Send Message</button>
 			</form>
 		</div>
 	</section>
+	<footer id="footer-section">
+		<p> &#169 Jakir Imam</p>
+		<div class="icon-container">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-google-plus-g"></i>
+			<i class="fa-brands fa-instagram"></i>
+		</div>
+	</footer>
 </body>
 </html>
